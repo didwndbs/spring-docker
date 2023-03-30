@@ -23,7 +23,7 @@ public class HelloController {
 
     @GetMapping("/members")
     public List<MemberVO> selectListMembers(){
-        return memberService.selectAsllMembers();
+        return memberService.selectAllMembers();
     }
 
     @PostMapping("/addMember")

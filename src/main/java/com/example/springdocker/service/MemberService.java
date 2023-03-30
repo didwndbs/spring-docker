@@ -14,7 +14,7 @@ public class MemberService {
     @Autowired
     MemberMapper memberMapper;
 
-    public List<MemberVO> selectAsllMembers(){
+    public List<MemberVO> selectAllMembers(){
         return memberMapper.selectAllMembers();
     }
 
